@@ -67,7 +67,7 @@
 加油。
 
 
-#### Inference
+#### Reference
 
 * [tensorflow-classification-network](https://github.com/alisure-ml/tensorflow-classification-network)
 
