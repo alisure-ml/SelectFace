@@ -26,8 +26,17 @@
 | ![1](readme/select_image.png) | ![3](readme/select_image3.png) |
 | ![2](readme/select_image2.png) | ![4](readme/select_image4.png) |
 
-
-* 训练数据和测试数据：`2:1`
+* 将标注好的数据进行打包成`face.zip`，在`RunnerTrain.py`总设置好参数，训练时会自动解压、划分Train/Test等。
+```
+face.zip
+    face
+        0
+            ZZ.jpg
+            XX.jpg
+        1
+            CC.jpg
+            VV.jpg
+```
 
 
 #### 模型
@@ -45,6 +54,8 @@
 
 > 由于问题简单，网络较小，所以训练特别快。
 
+* 设置好参数，运行`RunnerTrain.py`即可
+
 * 最终精度达到`99.25%`
 
 ![result](readme/test_result.png)
@@ -54,6 +65,9 @@
 
 > 推理速度非常快，10000张图片，只需50秒左右，并且结果完全满足要求。
 
+* 设置好参数，运行`RunnerInference.py`，默认会生成`result/tesut.txt`文件。
+
+* 然后运行`result/select_image.py`，瞬间结果就在`result`文件夹中。
 
 | 好的数据 | 坏的数据 |
 | --- | --- |
