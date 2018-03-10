@@ -1,2 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
+/data/face
+/data/face_src
+/data/face.zip
+/images
+images.zip
+data/data.rar
+data/data/
+model/
