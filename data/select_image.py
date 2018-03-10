@@ -105,5 +105,6 @@ class SelectImage(object):
 
 
 if __name__ == '__main__':
-    select_image = SelectImage(image_path="../images", result_path_0="../data/data/0", result_path_1="../data/data/1")
+    select_image = SelectImage(image_path="../images", result_path_0="../data/data/0",
+                               result_path_1="../data/data/1")
     select_image.run()
